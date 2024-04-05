@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <h1>Global Average Temperatures, 1880 - 2023</h1>
+    <h1>Snakes and Ladders game lengths, 1 - 1000 games</h1>
     <canvas id="myChart" width="400" height="200"></canvas>
     <script>
         window.addEventListener('load', fetchData)
@@ -49,7 +49,7 @@
                 data: {
                 labels: data.years,
                 datasets: [{
-                    label: 'Temperatue in Celsius',
+                    label: 'Game Length',
                     data: data.temps,
                     fill: false,
                     borderWidth: 1,
